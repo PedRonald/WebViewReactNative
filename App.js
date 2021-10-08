@@ -7,11 +7,11 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 export default function App() {
   return (
     <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
-      <WebView 
-      style={styles.container}
-      source={{ uri: 'https://ulb.org.br/' }}
-    />
-      
+      <WebView
+        style={styles.container}
+        source={{ uri: 'https://ulb.org.br/' }}
+      />
+
       <StatusBar style="auto" />
     </SafeAreaView>
   );
